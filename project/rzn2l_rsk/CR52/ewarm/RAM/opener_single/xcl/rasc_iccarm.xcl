@@ -1,0 +1,20 @@
+// generated extended command line file - do not edit
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn_gen"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/fsp/src/rm_freertos_port/ca"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/fsp/src/bsp/mcu/all/cr"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn_cfg/fsp_cfg/bsp"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/aws/amazon-freertos/freertos_kernel/include"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/fsp/inc/api"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/fsp/inc"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn_cfg/driver"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/src"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/fsp/src/rm_freertos_port/cr"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/fsp/inc/instances"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/arm/CMSIS_5/CMSIS/Core_A/Include"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn_cfg/aws"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn_cfg/fsp_cfg"
+-I"C:\pD_drive\Git_Clone\EtherNetIP_OpENer\project\rzn2l_rsk\CR52\ewarm\RAM\opener_single/rzn/arm/CMSIS_5/CMSIS/Core_R/Include"
+-D_RENESAS_RZN_
+-D_RZN_CORE=CR52_0
+-D_RZN_ORDINAL=1

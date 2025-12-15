@@ -1,0 +1,13 @@
+C:\iar\ewarm-9.70.2\arm\bin\armproc.dll
+
+ C:\iar\ewarm-9.70.2\arm\bin\armjlink.dll
+
+ C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single\Debug\Exe\RZN2L_RSK_OpENer_single.out
+
+ --plugin=C:\iar\ewarm-9.70.2\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=C:\iar\ewarm-9.70.2\arm/config/debugger/Renesas/RZN2L.dmac
+
+ 
+
+

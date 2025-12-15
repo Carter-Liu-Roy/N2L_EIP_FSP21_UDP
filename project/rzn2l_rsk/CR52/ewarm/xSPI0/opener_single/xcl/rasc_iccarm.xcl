@@ -1,0 +1,20 @@
+// generated extended command line file - do not edit
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/fsp/src/rm_freertos_port/cr"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/fsp/inc/instances"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/arm/CMSIS_5/CMSIS/Core_A/Include"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn_cfg/aws"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn_cfg/fsp_cfg"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/arm/CMSIS_5/CMSIS/Core_R/Include"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn_gen"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/fsp/src/rm_freertos_port/ca"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/fsp/src/bsp/mcu/all/cr"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn_cfg/fsp_cfg/bsp"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/aws/amazon-freertos/freertos_kernel/include"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/fsp/inc/api"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn/fsp/inc"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/rzn_cfg/driver"
+-I"C:\Users\a5134085\Desktop\r01an6603xx0210-rzn2l_ethernetip_opener_package\project\rzn2l_rsk\CR52\ewarm\xSPI0\opener_single/src"
+-D_RZN_ORDINAL=1
+-D_RENESAS_RZN_
+-D_RZN_CORE=CR52_0
