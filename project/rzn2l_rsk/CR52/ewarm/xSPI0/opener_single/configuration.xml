@@ -796,15 +796,15 @@
     <module id="module.driver.ether_phy_on_ether_phy.1344953209">
       <property id="module.driver.ether_phy.name" value="g_ether_phy0"/>
       <property id="module.driver.ether_phy.channel" value="module.driver.ether_phy.channel.0"/>
-      <property id="module.driver.ether_phy.phy_lsi_address" value="0"/>
+      <property id="module.driver.ether_phy.phy_lsi_address" value="1"/>
       <property id="module.driver.ether_phy.phy_reset_wait_time" value="0x00020000"/>
       <property id="module.driver.ether_phy.flow_control" value="module.driver.ether_phy.flow_control.disable"/>
       <property id="module.driver.ether_phy.port_type" value="module.driver.ether_phy.port_type.0"/>
-      <property id="module.driver.ether_phy.phy_lsi_type" value="module.driver.ether_phy.phy_lsi_type.vsc8541"/>
+      <property id="module.driver.ether_phy.phy_lsi_type" value="module.driver.ether_phy.phy_lsi_type.ksz8081"/>
       <property id="module.driver.ether_phy.target_init" value="NULL"/>
       <property id="module.driver.ether_phy.mdio_type" value="module.driver.ether_phy.mdio_type.0"/>
       <property id="module.driver.ether_phy.auto_negotiation" value="module.driver.ether_phy.auto_negotiation.1"/>
-      <property id="module.driver.ether_phy.bps" value="module.driver.ether_phy.bps.1"/>
+      <property id="module.driver.ether_phy.bps" value="module.driver.ether_phy.bps.3"/>
       <property id="module.driver.ether_phy.duplex" value="module.driver.ether_phy.duplex.1"/>
       <property id="module.driver.ether_phy.reset_port" value="module.driver.ether_phy.reset_port.PORT_13"/>
       <property id="module.driver.ether_phy.reset_pin" value="module.driver.ether_phy.reset_pin.PIN_04"/>
@@ -814,7 +814,7 @@
       <property id="module.driver.ether_selector.name" value="g_ether_selector0"/>
       <property id="module.driver.ether_selector.channel" value="module.driver.ether_selector.channel.0"/>
       <property id="module.driver.ether_selector.phylink" value="module.driver.ether_selector.phylink.low"/>
-      <property id="module.driver.ether_selector.interface_type" value="module.driver.ether_selector.interface_type.rgmii"/>
+      <property id="module.driver.ether_selector.interface_type" value="module.driver.ether_selector.interface_type.mii"/>
       <property id="module.driver.ether_selector.speed" value="module.driver.ether_selector.speed.bps1000m"/>
       <property id="module.driver.ether_selector.duplex" value="module.driver.ether_selector.duplex.full"/>
       <property id="module.driver.ether_selector.ref_clock" value="module.driver.ether_selector.ref_clock.input"/>
@@ -822,15 +822,15 @@
     <module id="module.driver.ether_phy_on_ether_phy.534731549">
       <property id="module.driver.ether_phy.name" value="g_ether_phy1"/>
       <property id="module.driver.ether_phy.channel" value="module.driver.ether_phy.channel.0"/>
-      <property id="module.driver.ether_phy.phy_lsi_address" value="1"/>
+      <property id="module.driver.ether_phy.phy_lsi_address" value="2"/>
       <property id="module.driver.ether_phy.phy_reset_wait_time" value="0x00020000"/>
       <property id="module.driver.ether_phy.flow_control" value="module.driver.ether_phy.flow_control.disable"/>
       <property id="module.driver.ether_phy.port_type" value="module.driver.ether_phy.port_type.0"/>
-      <property id="module.driver.ether_phy.phy_lsi_type" value="module.driver.ether_phy.phy_lsi_type.vsc8541"/>
+      <property id="module.driver.ether_phy.phy_lsi_type" value="module.driver.ether_phy.phy_lsi_type.ksz8081"/>
       <property id="module.driver.ether_phy.target_init" value="NULL"/>
       <property id="module.driver.ether_phy.mdio_type" value="module.driver.ether_phy.mdio_type.0"/>
       <property id="module.driver.ether_phy.auto_negotiation" value="module.driver.ether_phy.auto_negotiation.1"/>
-      <property id="module.driver.ether_phy.bps" value="module.driver.ether_phy.bps.1"/>
+      <property id="module.driver.ether_phy.bps" value="module.driver.ether_phy.bps.3"/>
       <property id="module.driver.ether_phy.duplex" value="module.driver.ether_phy.duplex.1"/>
       <property id="module.driver.ether_phy.reset_port" value="module.driver.ether_phy.reset_port.PORT_13"/>
       <property id="module.driver.ether_phy.reset_pin" value="module.driver.ether_phy.reset_pin.PIN_04"/>
@@ -840,7 +840,7 @@
       <property id="module.driver.ether_selector.name" value="g_ether_selector1"/>
       <property id="module.driver.ether_selector.channel" value="module.driver.ether_selector.channel.0"/>
       <property id="module.driver.ether_selector.phylink" value="module.driver.ether_selector.phylink.low"/>
-      <property id="module.driver.ether_selector.interface_type" value="module.driver.ether_selector.interface_type.rgmii"/>
+      <property id="module.driver.ether_selector.interface_type" value="module.driver.ether_selector.interface_type.mii"/>
       <property id="module.driver.ether_selector.speed" value="module.driver.ether_selector.speed.bps1000m"/>
       <property id="module.driver.ether_selector.duplex" value="module.driver.ether_selector.duplex.full"/>
       <property id="module.driver.ether_selector.ref_clock" value="module.driver.ether_selector.ref_clock.input"/>
@@ -1583,7 +1583,7 @@
       <configSetting altId="ether_eth0.eth0_txd2.p09_4" configurationId="ether_eth0.eth0_txd2"/>
       <configSetting altId="ether_eth0.eth0_txd3.p09_3" configurationId="ether_eth0.eth0_txd3"/>
       <configSetting altId="ether_eth0.eth0_txen_txctl.p10_0" configurationId="ether_eth0.eth0_txen_txctl"/>
-      <configSetting altId="ether_eth0.mode.rgmiimode.free" configurationId="ether_eth0.mode"/>
+      <configSetting altId="ether_eth0.mode.custom_40_3.3v_41.free" configurationId="ether_eth0.mode"/>
       <configSetting altId="ether_eth1.eth1_refclk.p06_1" configurationId="ether_eth1.eth1_refclk"/>
       <configSetting altId="ether_eth1.eth1_rxclk_ref_clk_rxc.p07_3" configurationId="ether_eth1.eth1_rxclk_ref_clk_rxc"/>
       <configSetting altId="ether_eth1.eth1_rxd0.p06_6" configurationId="ether_eth1.eth1_rxd0"/>
@@ -1597,21 +1597,7 @@
       <configSetting altId="ether_eth1.eth1_txd2.p05_7" configurationId="ether_eth1.eth1_txd2"/>
       <configSetting altId="ether_eth1.eth1_txd3.p06_0" configurationId="ether_eth1.eth1_txd3"/>
       <configSetting altId="ether_eth1.eth1_txen_txctl.p06_5" configurationId="ether_eth1.eth1_txen_txctl"/>
-      <configSetting altId="ether_eth1.mode.rgmiimode.free" configurationId="ether_eth1.mode"/>
-      <configSetting altId="ether_eth2.eth2_refclk.p00_3" configurationId="ether_eth2.eth2_refclk"/>
-      <configSetting altId="ether_eth2.eth2_rxclk_ref_clk_rxc.p24_1" configurationId="ether_eth2.eth2_rxclk_ref_clk_rxc"/>
-      <configSetting altId="ether_eth2.eth2_rxd0.p23_7" configurationId="ether_eth2.eth2_rxd0"/>
-      <configSetting altId="ether_eth2.eth2_rxd1.p24_0" configurationId="ether_eth2.eth2_rxd1"/>
-      <configSetting altId="ether_eth2.eth2_rxd2.p24_2" configurationId="ether_eth2.eth2_rxd2"/>
-      <configSetting altId="ether_eth2.eth2_rxd3.p00_0" configurationId="ether_eth2.eth2_rxd3"/>
-      <configSetting altId="ether_eth2.eth2_rxdv_crsdv_rxctl.p00_1" configurationId="ether_eth2.eth2_rxdv_crsdv_rxctl"/>
-      <configSetting altId="ether_eth2.eth2_txclk_txc.p00_6" configurationId="ether_eth2.eth2_txclk_txc"/>
-      <configSetting altId="ether_eth2.eth2_txd0.p01_5" configurationId="ether_eth2.eth2_txd0"/>
-      <configSetting altId="ether_eth2.eth2_txd1.p01_4" configurationId="ether_eth2.eth2_txd1"/>
-      <configSetting altId="ether_eth2.eth2_txd2.p01_3" configurationId="ether_eth2.eth2_txd2"/>
-      <configSetting altId="ether_eth2.eth2_txd3.p01_2" configurationId="ether_eth2.eth2_txd3"/>
-      <configSetting altId="ether_eth2.eth2_txen_txctl.p00_2" configurationId="ether_eth2.eth2_txen_txctl"/>
-      <configSetting altId="ether_eth2.mode.rgmiimode.free" configurationId="ether_eth2.mode"/>
+      <configSetting altId="ether_eth1.mode.custom_40_3.3v_41.free" configurationId="ether_eth1.mode"/>
       <configSetting altId="ether_ethsw.ethsw_phylink0.p10_4" configurationId="ether_ethsw.ethsw_phylink0"/>
       <configSetting altId="ether_ethsw.ethsw_phylink1.p05_5" configurationId="ether_ethsw.ethsw_phylink1"/>
       <configSetting altId="ether_ethsw.ethsw_phylink2.p00_5" configurationId="ether_ethsw.ethsw_phylink2"/>
@@ -1630,36 +1616,8 @@
       <configSetting altId="jtag_fslash_swd.tdi.p02_5" configurationId="jtag_fslash_swd.tdi"/>
       <configSetting altId="jtag_fslash_swd.tdo.p02_4" configurationId="jtag_fslash_swd.tdo"/>
       <configSetting altId="jtag_fslash_swd.tms_swdio.p02_6" configurationId="jtag_fslash_swd.tms_swdio"/>
-      <configSetting altId="p00_0.ether_eth2.eth2_rxd3" configurationId="p00_0"/>
-      <configSetting altId="p00_0.gpio_mode.gpio_mode_peripheral" configurationId="p00_0.gpio_mode"/>
-      <configSetting altId="p00_1.ether_eth2.eth2_rxdv_crsdv_rxctl" configurationId="p00_1"/>
-      <configSetting altId="p00_1.gpio_mode.gpio_mode_peripheral" configurationId="p00_1.gpio_mode"/>
-      <configSetting altId="p00_2.ether_eth2.eth2_txen_txctl" configurationId="p00_2"/>
-      <configSetting altId="p00_2.gpio_mode.gpio_mode_peripheral" configurationId="p00_2.gpio_mode"/>
-      <configSetting altId="p00_3.ether_eth2.eth2_refclk" configurationId="p00_3"/>
-      <configSetting altId="p00_3.gpio_mode.gpio_mode_peripheral" configurationId="p00_3.gpio_mode"/>
       <configSetting altId="p00_5.ether_ethsw.ethsw_phylink2" configurationId="p00_5"/>
       <configSetting altId="p00_5.gpio_mode.gpio_mode_peripheral" configurationId="p00_5.gpio_mode"/>
-      <configSetting altId="p00_6.ether_eth2.eth2_txclk_txc" configurationId="p00_6"/>
-      <configSetting altId="p00_6.gpio_speed.gpio_speed_high" configurationId="p00_6.gpio_drivecapacity"/>
-      <configSetting altId="p00_6.gpio_mode.gpio_mode_peripheral" configurationId="p00_6.gpio_mode"/>
-      <configSetting altId="p00_6.sr.sr.fast" configurationId="p00_6.sr"/>
-      <configSetting altId="p01_2.ether_eth2.eth2_txd3" configurationId="p01_2"/>
-      <configSetting altId="p01_2.gpio_speed.gpio_speed_high" configurationId="p01_2.gpio_drivecapacity"/>
-      <configSetting altId="p01_2.gpio_mode.gpio_mode_peripheral" configurationId="p01_2.gpio_mode"/>
-      <configSetting altId="p01_2.sr.sr.fast" configurationId="p01_2.sr"/>
-      <configSetting altId="p01_3.ether_eth2.eth2_txd2" configurationId="p01_3"/>
-      <configSetting altId="p01_3.gpio_speed.gpio_speed_high" configurationId="p01_3.gpio_drivecapacity"/>
-      <configSetting altId="p01_3.gpio_mode.gpio_mode_peripheral" configurationId="p01_3.gpio_mode"/>
-      <configSetting altId="p01_3.sr.sr.fast" configurationId="p01_3.sr"/>
-      <configSetting altId="p01_4.ether_eth2.eth2_txd1" configurationId="p01_4"/>
-      <configSetting altId="p01_4.gpio_speed.gpio_speed_high" configurationId="p01_4.gpio_drivecapacity"/>
-      <configSetting altId="p01_4.gpio_mode.gpio_mode_peripheral" configurationId="p01_4.gpio_mode"/>
-      <configSetting altId="p01_4.sr.sr.fast" configurationId="p01_4.sr"/>
-      <configSetting altId="p01_5.ether_eth2.eth2_txd0" configurationId="p01_5"/>
-      <configSetting altId="p01_5.gpio_speed.gpio_speed_high" configurationId="p01_5.gpio_drivecapacity"/>
-      <configSetting altId="p01_5.gpio_mode.gpio_mode_peripheral" configurationId="p01_5.gpio_mode"/>
-      <configSetting altId="p01_5.sr.sr.fast" configurationId="p01_5.sr"/>
       <configSetting altId="p01_7.canfd0.canrx0" configurationId="p01_7"/>
       <configSetting altId="p01_7.gpio_speed.gpio_speed_middle" configurationId="p01_7.gpio_drivecapacity"/>
       <configSetting altId="p01_7.gpio_mode.gpio_mode_peripheral" configurationId="p01_7.gpio_mode"/>
@@ -1705,7 +1663,9 @@
       <configSetting altId="p06_0.gpio_mode.gpio_mode_peripheral" configurationId="p06_0.gpio_mode"/>
       <configSetting altId="p06_0.sr.sr.fast" configurationId="p06_0.sr"/>
       <configSetting altId="p06_1.ether_eth1.eth1_refclk" configurationId="p06_1"/>
+      <configSetting altId="p06_1.gpio_speed.gpio_speed_high" configurationId="p06_1.gpio_drivecapacity"/>
       <configSetting altId="p06_1.gpio_mode.gpio_mode_peripheral" configurationId="p06_1.gpio_mode"/>
+      <configSetting altId="p06_1.sr.sr.fast" configurationId="p06_1.sr"/>
       <configSetting altId="p06_2.ether_eth1.eth1_txd1" configurationId="p06_2"/>
       <configSetting altId="p06_2.gpio_speed.gpio_speed_high" configurationId="p06_2.gpio_drivecapacity"/>
       <configSetting altId="p06_2.gpio_mode.gpio_mode_peripheral" configurationId="p06_2.gpio_mode"/>
@@ -1745,7 +1705,9 @@
       <configSetting altId="p09_0.ether_gmac.gmac_mdio" configurationId="p09_0"/>
       <configSetting altId="p09_0.gpio_mode.gpio_mode_peripheral" configurationId="p09_0.gpio_mode"/>
       <configSetting altId="p09_1.ether_eth0.eth0_refclk" configurationId="p09_1"/>
+      <configSetting altId="p09_1.gpio_speed.gpio_speed_high" configurationId="p09_1.gpio_drivecapacity"/>
       <configSetting altId="p09_1.gpio_mode.gpio_mode_peripheral" configurationId="p09_1.gpio_mode"/>
+      <configSetting altId="p09_1.sr.sr.fast" configurationId="p09_1.sr"/>
       <configSetting altId="p09_3.ether_eth0.eth0_txd3" configurationId="p09_3"/>
       <configSetting altId="p09_3.gpio_speed.gpio_speed_high" configurationId="p09_3.gpio_drivecapacity"/>
       <configSetting altId="p09_3.gpio_mode.gpio_mode_peripheral" configurationId="p09_3.gpio_mode"/>
@@ -1902,14 +1864,6 @@
       <configSetting altId="p22_1.gpio_mode.gpio_mode_out.toinput.low" configurationId="p22_1.gpio_mode"/>
       <configSetting altId="p22_3.output.toinput.low" configurationId="p22_3"/>
       <configSetting altId="p22_3.gpio_mode.gpio_mode_out.toinput.low" configurationId="p22_3.gpio_mode"/>
-      <configSetting altId="p23_7.ether_eth2.eth2_rxd0" configurationId="p23_7"/>
-      <configSetting altId="p23_7.gpio_mode.gpio_mode_peripheral" configurationId="p23_7.gpio_mode"/>
-      <configSetting altId="p24_0.ether_eth2.eth2_rxd1" configurationId="p24_0"/>
-      <configSetting altId="p24_0.gpio_mode.gpio_mode_peripheral" configurationId="p24_0.gpio_mode"/>
-      <configSetting altId="p24_1.ether_eth2.eth2_rxclk_ref_clk_rxc" configurationId="p24_1"/>
-      <configSetting altId="p24_1.gpio_mode.gpio_mode_peripheral" configurationId="p24_1.gpio_mode"/>
-      <configSetting altId="p24_2.ether_eth2.eth2_rxd2" configurationId="p24_2"/>
-      <configSetting altId="p24_2.gpio_mode.gpio_mode_peripheral" configurationId="p24_2.gpio_mode"/>
       <configSetting altId="sci0.mode.asynchronousmode.free" configurationId="sci0.mode"/>
       <configSetting altId="sci0.rxd_miso0.p16_6" configurationId="sci0.rxd_miso0"/>
       <configSetting altId="sci0.txd_mosi0.p16_5" configurationId="sci0.txd_mosi0"/>

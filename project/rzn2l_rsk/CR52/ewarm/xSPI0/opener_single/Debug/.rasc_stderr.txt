@@ -1,18 +1,18 @@
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:15:59 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider org.slf4j.simple.SimpleServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle slf4j.simple
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider com.sun.tools.rngdatatype.helpers.ProxyDatatypeLibraryFactory of service com.sun.tools.rngdatatype.DatatypeLibraryFactory in bundle com.sun.xml.bind.jaxb-osgi
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider com.sun.tools.xjc.addon.code_injector.PluginImpl of service com.sun.tools.xjc.Plugin in bundle com.sun.xml.bind.jaxb-osgi
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider com.sun.tools.xjc.addon.locator.SourceLocationAddOn of service com.sun.tools.xjc.Plugin in bundle com.sun.xml.bind.jaxb-osgi
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider com.sun.tools.xjc.addon.sync.SynchronizedMethodAddOn of service com.sun.tools.xjc.Plugin in bundle com.sun.xml.bind.jaxb-osgi
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider com.sun.tools.xjc.addon.at_generated.PluginImpl of service com.sun.tools.xjc.Plugin in bundle com.sun.xml.bind.jaxb-osgi
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider com.sun.tools.xjc.addon.episode.PluginImpl of service com.sun.tools.xjc.Plugin in bundle com.sun.xml.bind.jaxb-osgi
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider com.sun.tools.xjc.addon.accessors.PluginImpl of service com.sun.tools.xjc.Plugin in bundle com.sun.xml.bind.jaxb-osgi
-Dec 15, 2025 5:24:56 PM org.apache.aries.spifly.BaseActivator log
+Dec 22, 2025 2:16:00 PM org.apache.aries.spifly.BaseActivator log
 INFO: Registered provider org.glassfish.jaxb.runtime.v2.JAXBContextFactory of service jakarta.xml.bind.JAXBContextFactory in bundle com.sun.xml.bind.jaxb-osgi

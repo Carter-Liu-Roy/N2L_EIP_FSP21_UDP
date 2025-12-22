@@ -96,19 +96,6 @@
       <configSetting altId="ether_eth1.eth1_txd2.p05_7" configurationId="ether_eth1.eth1_txd2" peripheral="ETHER_ETH1"/>
       <configSetting altId="ether_eth1.eth1_txd3.p06_0" configurationId="ether_eth1.eth1_txd3" peripheral="ETHER_ETH1"/>
       <configSetting altId="ether_eth1.eth1_txen_txctl.p06_5" configurationId="ether_eth1.eth1_txen_txctl" peripheral="ETHER_ETH1"/>
-      <configSetting altId="ether_eth2.eth2_refclk.p00_3" configurationId="ether_eth2.eth2_refclk" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_rxclk_ref_clk_rxc.p24_1" configurationId="ether_eth2.eth2_rxclk_ref_clk_rxc" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_rxd0.p23_7" configurationId="ether_eth2.eth2_rxd0" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_rxd1.p24_0" configurationId="ether_eth2.eth2_rxd1" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_rxd2.p24_2" configurationId="ether_eth2.eth2_rxd2" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_rxd3.p00_0" configurationId="ether_eth2.eth2_rxd3" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_rxdv_crsdv_rxctl.p00_1" configurationId="ether_eth2.eth2_rxdv_crsdv_rxctl" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_txclk_txc.p00_6" configurationId="ether_eth2.eth2_txclk_txc" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_txd0.p01_5" configurationId="ether_eth2.eth2_txd0" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_txd1.p01_4" configurationId="ether_eth2.eth2_txd1" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_txd2.p01_3" configurationId="ether_eth2.eth2_txd2" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_txd3.p01_2" configurationId="ether_eth2.eth2_txd3" peripheral="ETHER_ETH2"/>
-      <configSetting altId="ether_eth2.eth2_txen_txctl.p00_2" configurationId="ether_eth2.eth2_txen_txctl" peripheral="ETHER_ETH2"/>
       <configSetting altId="ether_ethsw.ethsw_phylink0.p10_4" configurationId="ether_ethsw.ethsw_phylink0" peripheral="ETHER_ETHSW"/>
       <configSetting altId="ether_ethsw.ethsw_phylink1.p05_5" configurationId="ether_ethsw.ethsw_phylink1" peripheral="ETHER_ETHSW"/>
       <configSetting altId="ether_ethsw.ethsw_phylink2.p00_5" configurationId="ether_ethsw.ethsw_phylink2" peripheral="ETHER_ETHSW"/>

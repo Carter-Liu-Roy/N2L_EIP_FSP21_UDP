@@ -267,8 +267,8 @@ const ether_selector_cfg_t g_ether_selector1_cfg =
 {
     .channel                   = 1,
     .phylink                   = ETHER_SELECTOR_PHYLINK_POLARITY_LOW,
-    .interface                 = ETHER_SELECTOR_INTERFACE_RGMII,
-    .speed                     = ETHER_SELECTOR_SPEED_1000_MBPS,
+    .interface                 = ETHER_SELECTOR_INTERFACE_MII,
+    .speed                     = ETHER_SELECTOR_SPEED_100_MBPS,
     .duplex                    = ETHER_SELECTOR_DUPLEX_FULL,
     .ref_clock                 = ETHER_SELECTOR_REF_CLOCK_INPUT,
     .p_extend                  = NULL,
@@ -287,7 +287,7 @@ const ether_phy_extend_cfg_t g_ether_phy1_extend =
 {
     .port_type           = ETHER_PHY_PORT_TYPE_ETHERNET,
     .mdio_type           = ETHER_PHY_MDIO_GMAC,
-    .bps                 = ETHER_PHY_SPEED_10_1000,
+    .bps                 = ETHER_PHY_SPEED_100,
     .duplex              = ETHER_PHY_DUPLEX_FULL,
     .auto_negotiation    = ETHER_PHY_AUTO_NEGOTIATION_ON,
     .phy_reset_pin       = BSP_IO_PORT_13_PIN_4,
@@ -300,10 +300,10 @@ const ether_phy_cfg_t g_ether_phy1_cfg =
 {
 
     .channel                   = 1,
-    .phy_lsi_address           = 1,
+    .phy_lsi_address           = 2,
     .phy_reset_wait_time       = 0x00020000,
     .mii_bit_access_wait_time  = 0,                         // Unused
-    .phy_lsi_type              = ETHER_PHY_LSI_TYPE_VSC8541,
+    .phy_lsi_type              = ETHER_PHY_LSI_TYPE_KSZ8081,
     .flow_control              = ETHER_PHY_FLOW_CONTROL_DISABLE,
     .mii_type                  = (ether_phy_mii_type_t) 0,  // Unused
     .p_context                 = NULL,
@@ -323,8 +323,8 @@ const ether_selector_cfg_t g_ether_selector0_cfg =
 {
     .channel                   = 0,
     .phylink                   = ETHER_SELECTOR_PHYLINK_POLARITY_LOW,
-    .interface                 = ETHER_SELECTOR_INTERFACE_RGMII,
-    .speed                     = ETHER_SELECTOR_SPEED_1000_MBPS,
+    .interface                 = ETHER_SELECTOR_INTERFACE_MII,
+    .speed                     = ETHER_SELECTOR_SPEED_100_MBPS,
     .duplex                    = ETHER_SELECTOR_DUPLEX_FULL,
     .ref_clock                 = ETHER_SELECTOR_REF_CLOCK_INPUT,
     .p_extend                  = NULL,
@@ -343,7 +343,7 @@ const ether_phy_extend_cfg_t g_ether_phy0_extend =
 {
     .port_type           = ETHER_PHY_PORT_TYPE_ETHERNET,
     .mdio_type           = ETHER_PHY_MDIO_GMAC,
-    .bps                 = ETHER_PHY_SPEED_10_1000,
+    .bps                 = ETHER_PHY_SPEED_100,
     .duplex              = ETHER_PHY_DUPLEX_FULL,
     .auto_negotiation    = ETHER_PHY_AUTO_NEGOTIATION_ON,
     .phy_reset_pin       = BSP_IO_PORT_13_PIN_4,
@@ -356,10 +356,10 @@ const ether_phy_cfg_t g_ether_phy0_cfg =
 {
 
     .channel                   = 0,
-    .phy_lsi_address           = 0,
+    .phy_lsi_address           = 1,
     .phy_reset_wait_time       = 0x00020000,
     .mii_bit_access_wait_time  = 0,                         // Unused
-    .phy_lsi_type              = ETHER_PHY_LSI_TYPE_VSC8541,
+    .phy_lsi_type              = ETHER_PHY_LSI_TYPE_KSZ8081,
     .flow_control              = ETHER_PHY_FLOW_CONTROL_DISABLE,
     .mii_type                  = (ether_phy_mii_type_t) 0,  // Unused
     .p_context                 = NULL,

@@ -1,4 +1,4 @@
-#Mon Dec 15 12:06:45 CST 2025
+#Mon Dec 22 14:15:23 CST 2025
 com.renesas.cdt.ddsc.content/com.renesas.cdt.ddsc.content.defaultlinkerscript=script/fsp_xspi0_boot.icf
 com.renesas.cdt.ddsc.contentgen.options/options/suppresswarningspaths=
 com.renesas.cdt.ddsc.packs.componentfiles/AWS\#\#Heaps\#\#FreeRTOS\#\#heap_4\#\#\#\#2.1.0/all=2527852905,rzn/aws/amazon-freertos/freertos_kernel/portable/MemMang/heap_4.c
